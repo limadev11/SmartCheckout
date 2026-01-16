@@ -1,0 +1,543 @@
+[
+    {
+        "id": 1,
+        "imagem": "assets/img/3coracoes.jpg",
+        "nome": "3 Corações Café Tradicional",
+        "empresa": "BigMais",
+        "corredor": "B: 1",
+        "preco": 20.0,
+        "descricao": "Produto de alta qualidade."
+
+    },
+    {
+        "id": 2,
+        "imagem": "assets/img/alegrinho.png",
+        "nome": "Porto Alegre Alegrinho",
+        "empresa": "BigMais",
+        "corredor": "B: 2",
+        "preco": 10.0,
+        "descricao": "Produto durável, ideal para uso diário."
+    },
+    {
+        "id": 3,
+        "imagem": "assets/img/biscoito.jpeg",
+        "nome": "Biscoito de Leite Aymore",
+        "empresa": "BigMais",
+        "corredor": "B: 3",
+        "preco": 5.0,
+        "descricao": "Produto saboroso e nutritivo."
+    },
+    {
+        "id": 4,
+        "nome": "Biscoito de Água e Sal",
+        "imagem": "assets/img/biscoito_agua.jpg",
+        "empresa": "BigMais",
+        "corredor": "B: 4",
+        "preco": 4.5,
+        "descricao": "Produto leve e crocante."
+    },
+    {
+        "id": 5,
+        "imagem": "assets/img/passatempo.jpg",
+        "nome": "Biscoito Passatempo Recheado",
+        "empresa": "BigMais",
+        "corredor": "B: 5",
+        "preco": 8.0,
+        "descricao": "Produto energético e saboroso."
+    },
+    {
+        "id": 59,
+        "imagem": "assets/img/nescau.jpg",
+        "nome": "Nescau Cereal Matinal",
+        "empresa": "BigMais",
+        "corredor": "B: 6",
+        "preco": 8.0,
+        "descricao": "Produto energético e saboroso."
+    },
+    {
+        "id": 6,
+        "imagem": "assets/img/palmito.jpeg",
+        "nome": "Palmito Pupunha em Conserva",
+        "empresa": "BigMais",
+        "corredor": "B: 7",
+        "preco": 6.0,
+        "descricao": "Produto tradicional e delicioso."
+    },
+    {
+        "id": 7,
+        "imagem": "assets/img/mate_leao.jpg",
+        "nome": "Chá Mate Leão 1L",
+        "empresa": "BigMais",
+        "corredor": "B: 8",
+        "preco": 7.5,
+        "descricao": "Produto natural e refrescante."
+    },
+    {
+        "id": 8,
+        "imagem": "assets/img/cha_leao.jpg",
+        "nome": "Chá Leão Pacote 100g",
+        "empresa": "BigMais",
+        "corredor": "B: 9",
+        "preco": 9.0,
+        "descricao": "Produto saudável e saboroso."
+    },
+    {
+        "id": 9,
+        "imagem": "assets/img/filtro.jpg",
+        "nome": "Filtro de Água Purificador",
+        "empresa": "BigMais",
+        "corredor": "B: 10",
+        "preco": 12.0,
+        "descricao": "Produto de alta qualidade."
+    },
+    {
+        "id": 10,
+        "imagem": "assets/img/sabonete_ype.jpg",
+        "nome": "Sabonete Ype Hidratante",
+        "empresa": "MartMinas",
+        "corredor": "M: 1",
+        "preco": 15.0,
+        "descricao": "Produto suave para a pele."
+    },
+    {
+        "id": 11,
+        "imagem": "assets/img/paixao.jpg",
+        "nome": "Shampoo Paixão 400ml",
+        "empresa": "MartMinas",
+        "corredor": "M: 2",
+        "preco": 18.0,
+        "descricao": "Produto que fortalece os cabelos."
+    },
+    {
+        "id": 12,
+        "imagem": "assets/img/kit_shampo.jpg",
+        "nome": "Kit Shampoo e Condicionador 2x300ml Elseve",
+        "empresa": "MartMinas",
+        "corredor": "M: 3",
+        "preco": 18.0,
+        "descricao": "Produto que hidrata profundamente."
+    },
+    {
+        "id": 13,
+        "imagem": "assets/img/creme_dental.jpg",
+        "nome": "Creme Dental Oral-b Branqueador 90g",
+        "empresa": "MartMinas",
+        "corredor": "M: 4",
+        "preco": 6.0,
+        "descricao": "Produto que protege e branqueia os dentes."
+    },
+    {
+        "id": 14,
+        "imagem": "assets/img/amaciante.jpg",
+        "nome": "Amaciante de Roupas Fofo 2L",
+        "empresa": "MartMinas",
+        "corredor": "M: 5",
+        "preco": 10.0,
+        "descricao": "Produto que deixa as roupas macias e perfumadas."
+    },
+    {
+        "id": 15,
+        "imagem": "assets/img/detergente_ype.jpg",
+        "nome": "Detergente Líquido Ypê Limpeza Total 500ml",
+        "empresa": "MartMinas",
+        "corredor": "M: 6",
+        "preco": 4.0,
+        "descricao": "Produto eficaz na remoção de sujeiras."
+    },
+    {
+        "id": 16,
+        "imagem": "assets/img/sabonete_asseptgel.jpg",
+        "nome": "Sabonete Líquido Asseptgel Antibacterial 250ml",
+        "empresa": "MartMinas",
+        "corredor": "M: 7",
+        "preco": 12.0,
+        "descricao": "Produto que proporciona limpeza profunda."
+    },
+    {
+        "id": 17,
+        "imagem": "assets/img/flor_ype.jpg",
+        "nome": "Sabonete Líquido Ypê Flor de Lotus 250ml",
+        "empresa": "MartMinas",
+        "corredor": "M: 8",
+        "preco": 8.0,
+        "descricao": "Produto que elimina germes e bactérias."
+    },
+    {
+        "id": 18,
+        "imagem": "assets/img/rexona.jpg",
+        "nome": "Desorante Rexona All Body Protection Creme 150ml",
+        "empresa": "MartMinas",
+        "corredor": "M: 9",
+        "preco": 14.0,
+        "descricao": "Produto que remove manchas difíceis."
+    },
+    {
+        "id": 19,
+        "imagem": "assets/img/rexona_clinical.jpg",
+        "nome": "Desodorante Rexona Clinical Proteção Antitranspirante 45g",
+        "empresa": "MartMinas",
+        "corredor": "M: 10",
+        "preco": 16.0,
+        "descricao": "Produto que oferece Higiene eficaz."
+    },
+    {
+        "id": 20,
+        "imagem": "assets/img/pantene.jpg",
+        "nome": "Condicionador Pantene Restauracao Total 400ml",
+        "empresa": "MartMinas",
+        "corredor": "M: 11",
+        "preco": 9.0,
+        "descricao": "Produto que repara cabelos danificados."
+    },
+    {
+        "id": 21,
+        "imagem": "assets/img/tinta.jpg",
+        "nome": "Tinta Acrílica Cor&Ton Fosca 3,6L Branco Neve",
+        "empresa": "MartMinas",
+        "corredor": "M: 12",
+        "preco": 7.0,
+        "descricao": "Produto de alta durabilidade."
+    },
+    {
+        "id": 22,
+        "imagem": "assets/img/tapioca.jpg",
+        "nome": "Tapioca Yoki Pacote 500g",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 1",
+        "preco": 20.0,
+        "descricao": "Produto versátil para diversas receitas."
+    },
+    {
+        "id": 23,
+        "imagem": "assets/img/buchadupla.png",
+        "nome": "Bucha Dupla Multiuso Maior Durabilidade",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 2",
+        "preco": 15.0,
+        "descricao": "Produto de alta durabilidade."
+    },
+    {
+        "id": 24,
+        "imagem": "assets/img/escova.jpg",
+        "nome": "Escova de Cabelo Macia e Resistente Oral-B",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 3",
+        "preco": 25.0,
+        "descricao": "Produto confortável e estiloso."
+    },
+    {
+        "id": 25,
+        "imagem": "assets/img/lamen.jpg",
+        "nome": "Lamen Nissin Sabor Galinha Caipira Pacote 85g",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 4",
+        "preco": 30.0,
+        "descricao": "Produto prático e saboroso."
+    },
+    {
+        "id": 26,
+        "imagem": "assets/img/limppano.png",
+        "nome": "Aço de Inox Limppano Esponja de Aço com 5 Unidades",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 5",
+        "preco": 3.0,
+        "descricao": "Produto rápido e delicioso."
+    },
+    {
+        "id": 27,
+        "imagem": "assets/img/maizena.jpg",
+        "nome": "Amido de Milho Maizena Pacote 200g",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 6",
+        "preco": 2.5,
+        "descricao": "Produto prático e saboroso."
+    },
+    {
+        "id": 28,
+        "imagem": "assets/img/ninho.jpg",
+        "nome": "Leite em Pó Ninho Forti+ Integral Pacote 400g",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 7",
+        "preco": 32.0,
+        "descricao": "Produto rápido e delicioso."
+    },
+    {
+        "id": 29,
+        "imagem": "assets/img/neston.jpg",
+        "nome": "Bebida Láctea Neston Sabor Cereais 200ml",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 8",
+        "preco": 5.0,
+        "descricao": "Produto refrescante e saboroso."
+    },
+    {
+        "id": 30,
+        "imagem": "assets/img/mucilon.jpg",
+        "nome": "Mucilon Aveia e Mel Pacote 250g",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 9",
+        "preco": 18.0,
+        "descricao": "Produto macio e saboroso."
+    },
+    {
+        "id": 31,
+        "imagem": "assets/img/lencol1.jpg",
+        "nome": "Lenco umidecido Huggies Classic Care C/48 Unidades",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 10",
+        "preco": 22.0,
+        "descricao": "Produto tradicional e delicioso."
+    },
+    {
+        "id": 32,
+        "imagem": "assets/img/lencol2.jpg",
+        "nome": "Lenço Umedecido RiquiTucho Tripla Proteção C/48 Unidades",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 11",
+        "preco": 45.0,
+        "descricao": "Produto macio e seguro para bebês."
+    },
+    {
+        "id": 33,
+        "imagem": "assets/img/pano.png",
+        "nome": "Pano de Chão C/3 Unidades",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 12",
+        "preco": 20.0,
+        "descricao": "Produto confortável para limpeza."
+    },
+    {
+        "id": 34,
+        "imagem": "assets/img/papel.jpg",
+        "nome": "Papel Higiênico Personal Folha Dupla C/16 Rolos",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 13",
+        "preco": 29.0,
+        "descricao": "Produto seguro e confortável."
+    },
+    {
+        "id": 35,
+        "imagem": "assets/img/pasta_cristal.png",
+        "nome": "Pasta Cristal Ofício 100g",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 14",
+        "preco": 39.0,
+        "descricao": "Produto confortável."
+    },
+    {
+        "id": 36,
+        "imagem": "assets/img/pato.png",
+        "nome": "vaso sanitário Pato Purific 500ml",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 15",
+        "preco": 11.0,
+        "descricao": "Produto que deixa as roupas macias e perfumadas."
+    },
+    {
+        "id": 37,
+        "imagem": "assets/img/pinho_sol.png",
+        "nome": "Pinho Sol Líquido Limpeza Total 500ml",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 16",
+        "preco": 16.0,
+        "descricao": "Produto que elimina germes e bactérias."
+    },
+    {
+        "id": 38,
+        "imagem": "assets/img/pipoca.jpg",
+        "nome": "Pipoca Yoki Sabor Manteiga",
+        "empresa": "BigMais",
+        "corredor": "B: 11",
+        "preco": 7.0,
+        "descricao": "Produto saboroso e prático."
+    },
+    {
+        "id": 39,
+        "imagem": "assets/img/porti_cafe.png",
+        "nome": "Café Porti Café Tradicional",
+        "empresa": " BigMais",
+        "corredor": "B: 12",
+        "preco": 12.0,
+        "descricao": "Produto rápido e delicioso."
+    },
+    {
+        "id": 40,
+        "imagem": "assets/img/porti_chocolate.png",
+        "nome": "Chocolate em Pó Porti Chocolate 500g 50% Cacau",
+        "empresa": "BigMais",
+        "corredor": "B: 13",
+        "preco": 9.0,
+        "descricao": "Produto energético e saboroso."
+    },
+    {
+        "id": 41,
+        "imagem": "assets/img/porti_milho.png",
+        "nome": "Milho em Conserva Porti Lata 170g",
+        "empresa": "BigMais",
+        "corredor": "B: 14",
+        "preco": 6.0,
+        "descricao": "Produto saboroso e nutritivo."
+    },
+    {
+        "id": 42,
+        "imagem": "assets/img/porti_molho.png",
+        "nome": "Molho de Tomate Porti Sachê 340g",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 17",
+        "preco": 5.0,
+        "descricao": "Produto saudável e saboroso."
+    },
+    {
+        "id": 43,
+        "imagem": "assets/img/puverizador.png",
+        "nome": "Pulverizador de Plantas 1L",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 18",
+        "preco": 6.5,
+        "descricao": "Produto durável, ideal para uso diário."
+    },
+    {
+        "id": 44,
+        "imagem": "assets/img/repelente_off.png",
+        "nome": "Repelente Off! Pomada 300ml",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 19",
+        "preco": 4.0,
+        "descricao": "Produto prático e versátil."
+    },
+    {
+        "id": 45,
+        "imagem": "assets/img/sabao_ype.png",
+        "nome": "Sabão em Barra Ypê 200g",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 20",
+        "preco": 3.0,
+        "descricao": "Produto eficaz na remoção de sujeiras."
+    },
+    {
+        "id": 46,
+        "imagem": "assets/img/ruffles.png",
+        "nome": "Batata Ruffles Sabor Tradicional 96g",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 21",
+        "preco": 8.0,
+        "descricao": "Produto prático e saboroso."
+    },
+    {
+        "id": 47,
+        "imagem": "assets/img/sacodelixo.png",
+        "nome": "Saco de Lixo Ultlixo Resistente 15L C/10 Unidades",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 22",
+        "preco": 7.0,
+        "descricao": "Produto de alta durabilidade."
+    },
+    {
+        "id": 48,
+        "imagem": "assets/img/torresmo.jpg",
+        "nome": "Torresmo GuiGui Pacote 100g",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 23",
+        "preco": 14.0,
+        "descricao": "Produto saboroso e crocante."
+    },
+    {
+        "id": 49,
+        "imagem": "assets/img/uai.png",
+        "nome": "Leite Integral Uai 1L",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 24",
+        "preco": 11.0,
+        "descricao": "Produto nutritivo e saboroso."
+    },
+    {
+        "id": 50,
+        "imagem": "assets/img/veja.png",
+        "nome": "Detergente Líquido Veja Multiuso 500ml",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 25",
+        "preco": 13.0,
+        "descricao": "Produto eficaz na remoção de sujeiras."
+    },
+    {
+        "id": 51,
+        "imagem": "assets/img/whey.jpg",
+        "nome": "Whey Protein Lactea Pirancanjuba 200ml",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 26",
+        "preco": 9.0,
+        "descricao": "Produto prático e saboroso."
+    },
+    {
+        "id": 52,
+        "imagem": "assets/img/iogurte_itambe.jpg",
+        "nome": " Iogurte Natural Integral Itambé 170g",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 27",
+        "preco": 4.0,
+        "descricao": "Produto energético e saboroso."
+    },
+    {
+        "id": 53,
+        "imagem": "assets/img/kit_cabelo.jpg",
+        "nome": "Kit Tratamento Capilar DaBella 4 Produtos",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 28",
+        "preco": 10.0,
+        "descricao": "Produto que hidrata profundamente."
+    },
+    {
+        "id": 54,
+        "imagem": "assets/img/erva_mate.jpg",
+        "nome": "Erva Mate Barão Pacote 1Kg",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 29",
+        "preco": 15.0,
+        "descricao": "Produto nutritivo e saboroso."
+    },
+    {
+        "id": 55,
+        "imagem": "assets/img/assolan.png",
+        "nome": "Assolan Esponja de Aço C/5 Unidades",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 30",
+        "preco": 13.0,
+        "descricao": "Produto de alta qualidade."
+    },
+    {
+        "id": 56,
+        "imagem": "assets/img/bombril.png",
+        "nome": "Bombril Esponja de Aço C/5 Unidades",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 31",
+        "preco": 14.0,
+        "descricao": "Produto durável, ideal para uso diário."
+    },
+    {
+        "id": 57,
+        "imagem": "assets/img/limpol.png",
+        "nome": "Limpol Detergente Líquido Limpeza Total 500ml",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 32",
+        "preco": 12.0,
+        "descricao": "Produto de alta qualidade."
+    },
+    {
+        "id": 58,
+        "imagem": "assets/img/papel_paloma.jpg",
+        "nome": "Papel Higiênico Paloma Folha Dupla C/16 Rolos",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 33",
+        "preco": 18.0,
+        "descricao": "Produto seguro e confortável."
+    },
+    {
+        "id": 58,
+        "imagem": "assets/img/iogurte.jpg",
+        "nome": "Iogurte Batavo Batavinho C/6 Unidades",
+        "empresa": "Coelho Diniz",
+        "corredor": "CD: 34",
+        "preco": 20.0,
+        "descricao": "Produto refrescante e saboroso."
+    }
+]

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartCheckout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <header>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav class="sidebar">
+            <div>
+                <div class="logo">
+                    <img src="/assets/img/logo2.png" alt="SmartCheckout Logo">
+                </div>
+                <ul>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="planosDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Baixe o App
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="planosDropdown">
+                            <li><a class="dropdown-item" href="plano.html">SmartCheckout App</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Hero -->
+        <section class="hero text-center">
+            <div class="hero-content">
+                <h1>Seja Bem-vindo</h1>
+                <p>Visualize informações detalhadas sobre produtos, empresas, corredores e estoque em tempo real.</p>
+                <a href="#features" class="btn btn-primary btn-lg">Saiba Mais</a>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="features container my-5" id="features">
+            <h2 class="text-center mb-5">Recursos Principais</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <h4>Informações da Empresa</h4>
+                        <p>Saiba exatamente a qual empresa cada produto pertence, com apenas alguns cliques.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <h4>Localização do Produto</h4>
+                        <p>Descubra rapidamente em qual corredor ou seção o produto está localizado.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <h4>Controle de Estoque</h4>
+                        <p>Verifique em tempo real a disponibilidade e planeje suas compras de forma eficiente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="how-it-works container my-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="/assets/img/main.png" alt="Como Funciona" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2>Como Funciona?</h2>
+                    <p>Escaneie códigos de barras ou QR codes e obtenha informações instantâneas sobre os produtos,
+                        incluindo estoque, localização e detalhes da empresa.</p>
+                    <ul>
+                        <li>Acesso rápido e intuitivo.</li>
+                        <li>Atualizações em tempo real.</li>
+                        <li>Gestão eficiente para sua empresa ou loja.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- App Screenshot -->
+        <section class="app-screenshot container my-5 text-center">
+            <h2>Por que escolher o SmartCheckout?</h2>
+            <img src="/assets/img/tela.png" alt="App Screenshot" class="img-fluid my-3" style="max-width: 400px;">
+            <p>Interface moderna e fácil de usar, projetada para otimizar a experiência do usuário.</p>
+        </section>
+
+        <!-- Partners -->
+        <section class="partners container my-5 text-center">
+            <h2>Empresas Parceiras</h2>
+            <div class="row justify-content-center mt-4">
+                <div class="col-4 col-md-2">
+                    <img src="/assets/img/bigmais.png" alt="BigMais" class="img-fluid partner-logo">
+                </div>
+                <div class="col-4 col-md-2">
+                    <img src="/assets/img/coelhodiniz.png" alt="Coelho Diniz" class="img-fluid partner-logo">
+                </div>
+                <div class="col-4 col-md-2">
+                    <img src="/assets/img/martminas.png" alt="Mart Minas" class="img-fluid partner-logo">
+                </div>
+            </div>
+        </section>
+
+        <!-- Call To Action -->
+        <section class="cta text-center my-5">
+            <a href="#" class="btn btn-lg btn-primary">Baixe o App Agora</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>&copy; 2025 SmartCheckout. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
