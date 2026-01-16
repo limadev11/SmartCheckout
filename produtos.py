@@ -220,7 +220,8 @@ def exibeproduto(page: ft.Page, abre_login, exibemenu_callback):
             controls=[
                 ft.Text("SmartCheckout", color=ON_PRIMARY, weight=ft.FontWeight.BOLD),
                 ft.TextButton(
-                    "Home",
+                    "Início",
+                    tooltip="Voltar ao menu inicial",
                     on_click=lambda e: exibemenu_callback(page, abre_login),
                     style=ft.ButtonStyle(
                         text_style=ft.TextStyle(color=ON_PRIMARY)
